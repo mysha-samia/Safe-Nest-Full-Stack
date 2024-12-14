@@ -1,0 +1,34 @@
+<% layout("/layouts/boilerPlate") %>
+
+  <div class="container-fluid mt-5 mb-5">
+    <div class="row justify-content-center"> 
+      <div class="login-layout col-lg-8 col-md-8 col-sm-10 col-12"> 
+        <div class="login-form">
+          <h2 class="mt-5">Log In to Safe Nest</h2>
+          <form action="/login" method="POST" class="needs-validation" novalidate>
+            <div class="mb-3 mt-3">
+              <div style="display:flex;">
+                <i class="fa-solid fa-user" style="font-size: 1.3em; margin-top: 13px; margin-right: 2px;"></i>
+                <label for="username" class="form-label-register mb-3">User Name:</label>
+              </div>
+              <input name="username" id="username" class="form-control form-control-Forms " required />
+            </div>
+
+            <div class="mb-3">
+              <div style="display:flex;">
+                <i class="fa-solid fa-lock" style="font-size: 1.3em; margin-top: 13px; margin-right: 2px;"></i>
+                <label for="password" class="form-label-register mb-3">Password:</label>
+              </div>
+              <input name="password" id="password" class="form-control form-control-Forms " required />
+            </div> 
+
+            <div style="display:flex; justify-content: space-between;">
+              
+              <button class="btn  mt-4 mb-4" style="background-color: #fe424d !important; color:#fff;">Log In</button>
+              <a href="/signup"class="mt-2" style="font-size: 13px;">Create New Account</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>

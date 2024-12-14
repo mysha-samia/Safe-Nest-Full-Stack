@@ -1,0 +1,52 @@
+{
+  "name": "safenest",
+  "version": "1.0.0",
+  "description": "\"A web application for discovering and booking short-term rentals and unique stays.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"react-scripts test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mysha-samia/Safe-Nest-Full-Stack.git"
+  },
+  "keywords": [
+    "\"vacation",
+    "rentals\""
+  ],
+  "author": "Mysha Samiha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mysha-samia/Safe-Nest-Full-Stack/issues"
+  },
+  "homepage": "https://github.com/mysha-samia/Safe-Nest-Full-Stack#readme",
+  "dependencies": {
+    "@mapbox/mapbox-sdk": "^0.16.1",
+    "bootstrap": "^5.3.3",
+    "cloudinary": "^2.5.1",
+    "connect-flash": "^0.1.1",
+    "cookie": "^1.0.2",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "file": "^0.2.2",
+    "helmet": "^8.0.0",
+    "joi": "^17.13.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.8.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "node": "^22.12.0",
+    "parser": "^0.1.4",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^8.0.0",
+    "session": "^0.1.0",
+    "upload": "^1.3.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}

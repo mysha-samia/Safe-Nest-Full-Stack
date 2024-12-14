@@ -1,0 +1,25 @@
+Basic model listing for basic set up
+-title 
+-description 
+-image (url)or link  
+-price 
+-location 
+-country
+we will create multiple models.
+there will the multiple collections
+ after creating  these we will initialize the database where there will be datas
+ init folder-database iniitialaztion
+ after that we will be doing our crud operations where we will be creatinfg an ibndex route where we will be printing our data in that route
+ index route
+ -here we will accept our get request on /lisitngs .
+ means /lisitngs route accepts the get request all listings will be showned
+ apis - /lisiting -post request
+       /lisitng/:id -patch 
+-CREATE ROUTE - GET - /lisitng/new ---> form --->submit--->post request /listings(new listings will be created)
+EDIT AND UPDATE ROUTE-
+get request /lisitngs/:id/edit -edit form----->submit-----> put reuest create----->listing/:id
+DELETE req for the  /listings/:id.
+
+
+
+ejs mate for templatting

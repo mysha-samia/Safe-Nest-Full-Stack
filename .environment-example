@@ -1,0 +1,11 @@
+
+# storing all the credentails here
+mongoDBpassword = 
+mongoDBusername= 
+mongoDBuri= 
+
+CLOUD_NAME=
+CLOUD_API_KEY=
+CLOUD_API_SECRET=
+MAP_TOKEN=
+  

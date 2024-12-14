@@ -1,0 +1,59 @@
+<nav class="navbar navbar-expand-md bg-body-light border-bottom shadow-sm mb-6">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/listings">
+        <div style="display:flex;">
+          <i class="far fa-compass responsive-size" aria-hidden="true" id="compass"></i>
+          <img src="/img/safenest.png" class="safenest-img" style="height: 50%; width: 65%;">
+        </div>
+      </a> 
+  
+     
+  
+      <!-- Search Form (always visible) -->
+      <div class="d-flex justify-content-center " >
+        <form class="form-inline my-lg-0 " style="display: flex;">
+          <input class="form-control form-control-Forms  input-btn mr-sm-2  responsive-size" type="search" placeholder="Search">
+          <button class="btn search-btn  my-sm-0  responsive-size" type="submit">
+            <i class="fa-solid fa-magnifying-glass input-btn"></i> Search
+          </button>
+        </form>
+      </div>
+
+       <!-- Navbar Toggler -->
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!-- Navbar Items -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link nav-font" href="/listings">Explore</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-font" href="/listings/new">
+              <i class="fas fa-home fa-lg"></i>&nbsp;Host Your Nest
+            </a>
+          </li>
+          <% if(!currUser) { %>
+          <li class="nav-item">
+            <a class="nav-link nav-font" href="/signup"><b>Sign Up</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-font" href="/login"><b>Log In</b></a>
+          </li>
+          <% } %>
+          <% if(currUser) { %>
+          <li class="nav-item">
+            <a class="nav-link nav-font" href="/logout"><b>Log Out</b></a>
+          </li>
+          <% } %>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+
+
+
